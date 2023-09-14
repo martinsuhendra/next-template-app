@@ -1,5 +1,11 @@
+import Pagination from './Pagination'
+
 function CardList() {
-  return <div>CardList</div>
+  return (
+    <div>
+      <Pagination />
+    </div>
+  )
 }
 
 export default CardList
