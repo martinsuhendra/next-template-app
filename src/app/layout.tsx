@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
+import ThemeProvider from '@/providers/ThemeProvider'
 
 import './globals.css'
 
@@ -21,11 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container mx-auto">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <ThemeProvider>
+          <div className="container mx-auto">
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )
