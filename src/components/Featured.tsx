@@ -8,7 +8,7 @@ function Featured() {
         ideas.
       </h1>
       <div className="mt-14 flex-col md:flex md:flex-row items-center gap-12">
-        <div className="flex-1 h-72 md:h-[500px] w-full md:w-96 relative">
+        <div className="flex-1 h-72 md:h-[500px] w-full md:w-96 relative -z-10">
           <Image
             src="/post-hero.jpeg"
             alt="image featured"
@@ -22,7 +22,7 @@ function Featured() {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </h4>
-          <p className="text-sm md:text-base md:mt-0 mt-4">
+          <p className="text-sm md:text-base">
             Lorem Ipsum has been the industry&apos;s standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only
