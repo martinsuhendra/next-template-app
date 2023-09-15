@@ -123,6 +123,15 @@ module.exports = {
       2,
       { cases: { camelCase: true, pascalCase: true, kebabCase: true } },
     ],
+    'jsx-a11y/label-has-associated-control': 0,
+    'jsx-a11y/label-has-for': [
+      'error',
+      {
+        required: {
+          some: ['nesting', 'id'],
+        },
+      },
+    ],
   },
   settings: {
     react: {
