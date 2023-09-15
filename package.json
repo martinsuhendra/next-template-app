@@ -1,6 +1,6 @@
 {
   "name": "next-blog-app",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "engines": {
     "node": ">=18.17 <=19.5.0",
     "yarn": "please-use-pnpm",

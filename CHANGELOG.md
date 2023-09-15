@@ -1,5 +1,13 @@
 
 
+## [0.2.0](https://github.com/martinsuhendra/next-template-app/compare/0.1.1...0.2.0) (2023-09-15)
+
+
+### Features
+
+* custom tailwind container theme ([3de6d84](https://github.com/martinsuhendra/next-template-app/commit/3de6d841b276abec3f83481f3d31f7691688269a))
+* placing components on home page ([57e10e5](https://github.com/martinsuhendra/next-template-app/commit/57e10e5c5a6c05d1f151d8aa43791eeb141eaf22))
+
 ## 0.1.1 (2023-09-13)
 
 
