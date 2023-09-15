@@ -15,6 +15,7 @@ function Featured() {
             fill
             objectFit="cover"
             className="rounded-xl"
+            placeholder="blur"
           />
         </div>
         <div className="flex-1 flex flex-col gap-4 mt-4 md:mt-0">
