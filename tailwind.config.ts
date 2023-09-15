@@ -16,11 +16,15 @@ const config: Config = {
       },
     },
     container: {
+      center: true,
       padding: {
         DEFAULT: '3rem',
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: false,
+  },
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
 }
 export default config

@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider>
-          <div className="container mx-auto">
+          <div className="container">
             <Navbar />
             {children}
             <Footer />
