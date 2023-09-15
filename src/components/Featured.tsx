@@ -3,12 +3,12 @@ import Image from 'next/image'
 function Featured() {
   return (
     <div className="mt-8">
-      <h1 className="max-w-6xl text-6xl lg:text-8xl font-bold">
+      <h1 className="max-w-6xl text-4xl sm:text-6xl lg:text-8xl font-bold">
         <strong>Hey, blog dev here!</strong> Discover my stories and creative
         ideas.
       </h1>
-      <div className="mt-14 flex items-center gap-12">
-        <div className="flex-1 h-[500px] w-96 relative">
+      <div className="mt-14 flex-col md:flex md:flex-row items-center gap-12">
+        <div className="flex-1 h-72 md:h-[500px] w-full md:w-96 relative">
           <Image
             src="/post-hero.jpeg"
             alt="image featured"
@@ -17,12 +17,12 @@ function Featured() {
             className="rounded-xl"
           />
         </div>
-        <div className="flex-1 flex flex-col gap-3">
-          <h4 className="font-bold text-4xl">
+        <div className="flex-1 flex flex-col gap-4 mt-4 md:mt-0">
+          <h4 className="font-bold text-xl sm:text-2xl md:text-4xl">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </h4>
-          <p className="text-base">
+          <p className="text-sm md:text-base md:mt-0 mt-4">
             Lorem Ipsum has been the industry&apos;s standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only
