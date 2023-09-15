@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 function AuthLink() {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false)
+  const [isAuthenticated] = useState<boolean>(false)
 
   return isAuthenticated ? (
     <>
