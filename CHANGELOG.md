@@ -1,5 +1,19 @@
 
 
+## [0.3.0](https://github.com/martinsuhendra/next-template-app/compare/0.2.2...0.3.0) (2023-09-16)
+
+
+### Features
+
+* add featured content ([37b888e](https://github.com/martinsuhendra/next-template-app/commit/37b888e6bbaf866688978a7b97d8d8d2b6e1a272))
+
+
+### Refactor
+
+* add placholder blur on image post ([ff4ad17](https://github.com/martinsuhendra/next-template-app/commit/ff4ad1729431d959238aa97bdfb1495bc7e4acbd))
+* featured responsiveness ([8f8df17](https://github.com/martinsuhendra/next-template-app/commit/8f8df17440e5972ffba3a2a1b838ba025819bb90))
+* wrong css on post paragraph container ([656a9e3](https://github.com/martinsuhendra/next-template-app/commit/656a9e3699bde40dd78da71387973b17e887cc1f))
+
 ## [0.2.2](https://github.com/martinsuhendra/next-template-app/compare/0.2.1...0.2.2) (2023-09-15)
 
 ## [0.2.1](https://github.com/martinsuhendra/next-template-app/compare/0.2.0...0.2.1) (2023-09-15)
