@@ -13,8 +13,7 @@ function Featured() {
             src="/post-hero.jpeg"
             alt="image featured"
             fill
-            objectFit="cover"
-            className="rounded-xl"
+            className="rounded-xl object-cover"
           />
         </div>
         <div className="flex-1 flex flex-col gap-4 mt-4 md:mt-0">
