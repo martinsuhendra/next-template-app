@@ -13,9 +13,7 @@ function Featured() {
             src="/post-hero.jpeg"
             alt="image featured"
             fill
-            objectFit="cover"
-            className="rounded-xl"
-            placeholder="blur"
+            className="rounded-xl object-cover"
           />
         </div>
         <div className="flex-1 flex flex-col gap-4 mt-4 md:mt-0">
@@ -30,6 +28,9 @@ function Featured() {
             five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </p>
+          <button type="button" className="btn w-fit">
+            Read More
+          </button>
         </div>
       </div>
     </div>
