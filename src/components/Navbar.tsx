@@ -7,7 +7,7 @@ import ThemeToggle from './ThemeToggle'
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center h-24">
+    <nav className="flex container justify-between items-center h-24 sticky top-0 backdrop-blur-md w-full z-20">
       <div id="social" className="flex-1 gap-2 md:flex hidden">
         <Image src="/facebook.png" alt="facebook" width={24} height={24} />
         <Image src="/instagram.png" alt="instagram" width={24} height={24} />
