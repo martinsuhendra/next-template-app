@@ -1,33 +1,38 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import { CATEGORIES_LIST } from '@/constants'
+
+import BlogCategoryChip from './BlogCategoryChip'
+import EditorsPickCard from './EditorsPickCard'
 
 function Menu() {
   return (
-    <div className="mt-12 col-span-2">
-      <h4 className="text-gray-500">What&apos;s hot</h4>
+    <div className="mt-12 col-span-7 md:col-span-2">
+      <h4 className="text-gray-500">What&apos;s hot?</h4>
       <h3 className="mb-12 text-3xl font-semibold">Most Popular</h3>
-      <Link href="/" className="flex gap-5 items-center">
-        <div className="relative w-20 h-20 aspect-square">
-          <Image
-            src="/post-hero.jpeg"
-            fill
-            className="object-cover rounded-full border-2 border-slate-400"
-            alt=""
-          />
-        </div>
-        <div className="flex-[5] flex flex-col gap-1">
-          <span className="badge badge-lg bg-secondary-500 text-white">
-            Travel
-          </span>
-          <h4 className="font-medium text-lg text-stone-500">
-            Lorem Ipsum is simply dummy text of the printing.
-          </h4>
-          <div>
-            <span className="text-xs font-medium">John Doe</span>
-            <span className="text-xs text-stone-500"> - 10.03.2023</span>
-          </div>
-        </div>
-      </Link>
+      {CATEGORIES_LIST.map(
+        (category, idx) =>
+          idx <= 2 && (
+            <EditorsPickCard
+              key={category.label}
+              category={category}
+              hideImage
+            />
+          ),
+      )}
+      <h4 className="text-gray-500">Discover by topic</h4>
+      <h3 className="mb-12 text-3xl font-semibold">Categories</h3>
+      <div className="mb-12 flex flex-wrap gap-3">
+        {CATEGORIES_LIST.map((category) => (
+          <BlogCategoryChip key={category.label} category={category} />
+        ))}
+      </div>
+      <h4 className="text-gray-500">Chosen by the editor</h4>
+      <h3 className="mb-12 text-3xl font-semibold">Editors Pick</h3>
+      {CATEGORIES_LIST.map(
+        (category, idx) =>
+          idx <= 3 && (
+            <EditorsPickCard key={category.label} category={category} />
+          ),
+      )}
     </div>
   )
 }

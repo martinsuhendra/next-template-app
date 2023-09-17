@@ -26,7 +26,7 @@ function BlogCard() {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <Link className="link text-[crimson]" href="/">
+        <Link className="link dark:text-white text-[crimson]" href="/">
           Read More
         </Link>
       </div>
