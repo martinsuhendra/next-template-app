@@ -1,5 +1,12 @@
 
 
+## [0.4.3](https://github.com/martinsuhendra/next-template-app/compare/0.4.2...0.4.3) (2023-09-17)
+
+
+### Refactor
+
+* add backdrop blur to sticky navbar ([23f9447](https://github.com/martinsuhendra/next-template-app/commit/23f94473bb223c03bb22fdc0d4156b7b612c8d96))
+
 ## [0.4.2](https://github.com/martinsuhendra/next-template-app/compare/0.4.1...0.4.2) (2023-09-17)
 
 ## [0.4.1](https://github.com/martinsuhendra/next-template-app/compare/0.4.0...0.4.1) (2023-09-17)
