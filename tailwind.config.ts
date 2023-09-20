@@ -49,6 +49,13 @@ const config: Config = {
       {
         dark: {
           ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
+          primary: '#775aec',
+          secondary: '#ff7887',
+          info: '#789cff',
+          success: '#7fb881',
+          warning: '#ffb14f',
+          error: '#ff7857',
+          accent: '#E3C7F9',
         },
       },
     ],

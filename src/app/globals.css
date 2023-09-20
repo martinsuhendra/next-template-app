@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-success,
+  .btn-info,
+  .btn-error {
+    @apply text-white;
+  }
+}
