@@ -1,5 +1,12 @@
 
 
+## [0.5.0](https://github.com/martinsuhendra/next-template-app/compare/0.4.3...0.5.0) (2023-09-20)
+
+
+### Features
+
+* add single blog page and apply text white css directive ([670e529](https://github.com/martinsuhendra/next-template-app/commit/670e529732542eab7d251349f72ee265075f7804))
+
 ## [0.4.3](https://github.com/martinsuhendra/next-template-app/compare/0.4.2...0.4.3) (2023-09-17)
 
 
