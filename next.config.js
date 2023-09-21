@@ -6,6 +6,9 @@ const REPO_URL = 'next-template-app'
 const nextConfig = {
   output: isDeploying ? 'export' : undefined,
   assetPrefix: isProd ? REPO_URL : undefined,
+  images: {
+    unoptimized: isProd ? true : false,
+  },
 }
 
 module.exports = nextConfig
