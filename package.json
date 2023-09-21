@@ -11,6 +11,7 @@
     "dev": "next dev",
     "analyze": "ANALYZE=true next build",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "TIMING=1 next lint",
     "format": "prettier --write --list-different . --ignore-unknown",
