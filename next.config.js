@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const isDeploying = process.env.DEPLOYING_MODE === 'true'
 const isProd = process.env.NODE_ENV === 'production'
-const envImageUnoptimize = isProd ? true : false
+const REPO_URL = 'next-template-app'
 
 const nextConfig = {
   output: isDeploying ? 'export' : undefined,
-  assetPrefix: isProd ? '/next-template-app' : undefined,
-  images: {
-    unoptimized: envImageUnoptimize,
-  },
+  assetPrefix: isProd ? REPO_URL : undefined,
 }
 
 module.exports = nextConfig
