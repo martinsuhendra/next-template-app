@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import PostHeroImage from 'public/post-hero.jpeg'
 
 import { BlogCategory, ColorVariations } from '@/types'
 
@@ -30,7 +31,7 @@ function EditorsPickCard({
         }`}
       >
         <Image
-          src="/post-hero.jpeg"
+          src={PostHeroImage}
           fill
           className="object-cover rounded-full border-2 border-slate-400"
           alt=""

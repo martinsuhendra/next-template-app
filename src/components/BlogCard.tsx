@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import PostHeroImage from 'public/post-hero.jpeg'
 
 function BlogCard() {
   return (
     <div className="flex items-center mb-12 gap-12">
       <div className="relative flex-1 h-[350px]">
         <Image
-          src="/post-hero.jpeg"
+          src={PostHeroImage}
           fill
           alt="blog image"
           className="object-cover"

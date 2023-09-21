@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import PostHeroImage from 'public/post-hero.jpeg'
 
 function CommentCard() {
   return (
@@ -6,7 +7,7 @@ function CommentCard() {
       <div className="flex items-center gap-5">
         <div className="relative w-14 h-14 aspect-square">
           <Image
-            src="/post-hero.jpeg"
+            src={PostHeroImage}
             fill
             className="object-cover rounded-full border-2 border-slate-400"
             alt=""

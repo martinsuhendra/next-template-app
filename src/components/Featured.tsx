@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import PostHeroImage from 'public/post-hero.jpeg'
 
 function Featured() {
   return (
@@ -10,7 +11,7 @@ function Featured() {
       <div className="mt-14 flex-col md:flex md:flex-row items-center gap-12">
         <div className="flex-1 h-72 md:h-[500px] w-full md:w-96 relative -z-10">
           <Image
-            src="/post-hero.jpeg"
+            src={PostHeroImage}
             alt="image featured"
             fill
             className="rounded-xl object-cover"

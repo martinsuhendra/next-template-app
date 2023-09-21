@@ -1,14 +1,33 @@
+import Coding from 'public/coding.png'
+import Culture from 'public/culture.png'
+import Fashion from 'public/fashion.png'
+import Food from 'public/food.png'
+import Style from 'public/style.png'
+import Travel from 'public/travel.png'
+
 import { BlogCategory, ColorVariations } from '@/types'
 
 export const CATEGORIES_LIST: BlogCategory[] = [
-  { imgUrl: '/style.png', label: 'style', color: ColorVariations.Info },
+  { imgUrl: Style, label: 'style', color: ColorVariations.Info },
   {
-    imgUrl: '/fashion.png',
+    imgUrl: Fashion,
     label: 'fashion',
     color: ColorVariations.Secondary,
   },
-  { imgUrl: '/food.png', label: 'food', color: ColorVariations.Success },
-  { imgUrl: '/travel.png', label: 'travel', color: ColorVariations.Error },
-  { imgUrl: '/culture.png', label: 'culture', color: ColorVariations.Warning },
-  { imgUrl: '/coding.png', label: 'coding', color: ColorVariations.Primary },
+  { imgUrl: Food, label: 'food', color: ColorVariations.Success },
+  {
+    imgUrl: Travel,
+    label: 'travel',
+    color: ColorVariations.Error,
+  },
+  {
+    imgUrl: Culture,
+    label: 'culture',
+    color: ColorVariations.Warning,
+  },
+  {
+    imgUrl: Coding,
+    label: 'coding',
+    color: ColorVariations.Primary,
+  },
 ]

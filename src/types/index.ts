@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image'
+
 export enum ColorVariations {
   Primary = 'primary',
   Secondary = 'secondary',
@@ -8,7 +10,7 @@ export enum ColorVariations {
 }
 
 export type BlogCategory = {
-  imgUrl: string
+  imgUrl: StaticImageData
   label: string
   color: ColorVariations
 }
