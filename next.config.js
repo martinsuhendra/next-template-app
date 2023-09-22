@@ -1,11 +1,20 @@
 /** @type {import('next').NextConfig} */
-const isDeploying = process.env.DEPLOYING_MODE === 'true'
+const isGithubActions = process.env.GITHUB_ACTIONS || false
 const isProd = process.env.NODE_ENV === 'production'
-const REPO_URL = '/next-template-app'
+
+let assetPrefix = ''
+
+if (isGithubActions) {
+  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+
+  assetPrefix = `/${repo}/`
+}
 
 const nextConfig = {
-  output: isDeploying ? 'export' : undefined,
-  assetPrefix: isProd ? REPO_URL : undefined,
+  reactStrictMode: true,
+  output: isGithubActions ? 'export' : undefined,
+  distDir: 'dist',
+  assetPrefix,
   images: {
     unoptimized: isProd ? true : false,
   },
