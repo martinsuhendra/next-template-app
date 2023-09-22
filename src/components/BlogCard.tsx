@@ -4,8 +4,8 @@ import PostHeroImage from 'public/post-hero.jpeg'
 
 function BlogCard() {
   return (
-    <div className="flex items-center mb-12 gap-12">
-      <div className="relative flex-1 h-[350px]">
+    <div className="flex flex-col lg:flex-row items-center mb-12 gap-12">
+      <div className="relative w-full lg:flex-1 h-[240px] lg:h-[350px]">
         <Image
           src={PostHeroImage}
           fill

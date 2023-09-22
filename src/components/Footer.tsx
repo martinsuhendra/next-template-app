@@ -29,7 +29,7 @@ function Footer() {
           <Image src={Youtube} width={18} height={18} alt="youtube" />
         </div>
       </div>
-      <div className="flex gap-24">
+      <div className="flex flex-wrap gap-24">
         <div className="flex flex-1 flex-col gap-2">
           <span className="text-lg font-bold">Links</span>
           <Link href="/" className="text-stone-500">
