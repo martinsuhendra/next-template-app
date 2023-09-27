@@ -2,6 +2,9 @@
 
 This is a **highly** opinionated [Next.js](https://nextjs.org/) template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), originally from this [nextjs-template](https://github.com/Howard86/nextjs-template).
 
+You can visit this on:
+[Blog App](https://martinsuhendra.github.io/next-template-app/)
+
 Shipped with following developer tools:
 
 ### Production dependencies
